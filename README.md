@@ -5,6 +5,9 @@ NTU IN6227 Data Mining Assignment (2)
 The source code for brute force and Apriori are adopted from the internet.
 The author is: shrey
 
+# Dependency
+Please install python 3 and above
+
 # Data sets
 I have recreated the datasets, namely, dataA, dataB, dataC, dataD, dataE.
 
@@ -17,3 +20,18 @@ The data consist of A to R, a total of 18 unique "items"
 5. dataE has a total of 18 unique items
 
 Each dataset consist of 35 rows, which is represented as transactions.
+
+# Usage
+In the terminal input:
+
+python3 bruteForce.py
+OR
+python3 apriori.py
+
+When you are requested to put in the path, you can input
+
+1. db/dataA.csv
+2. db/dataB.csv
+3. db/dataC.csv
+4. db/dataD.csv
+5. db/dataE.csv
